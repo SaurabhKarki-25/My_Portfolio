@@ -43,6 +43,7 @@ import lamartImg from "./assets/lamart.jpeg";
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import collegetips from './assets/SIP 2025.jpg';
 
 
 export const SkillsInfo = [
@@ -157,4 +158,13 @@ export const SkillsInfo = [
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       webapp: "https://removeyourbg.netlify.app/",
     },
+
+    {
+      id:3,
+      title: "College-Tips-Gallery",
+      description: "College Tips Gallery is a curated visual collection designed to showcase essential insights for students navigating college life. Featuring high-quality images, motivational quotes, study hacks, and campus experiences, the gallery offers an engaging way to absorb practical tips.",
+      image: collegetips,
+      tags: ["React JS", "Typescript", "HTML", "CSS", "JavaScript"],
+      webapp : "https://college-tips-gallery.netlify.app/"
+    }
   ];  
