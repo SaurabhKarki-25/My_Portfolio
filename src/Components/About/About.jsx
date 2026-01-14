@@ -3,7 +3,7 @@ import profileImage from "../../assets/saurabhpic.jpg";
 import Tilt from "react-parallax-tilt";
 
 export default function About() {
-  const textArray = ["Web Developer", "Frontend Developer", "UI/UX Designer", "Full Stack Developer"];
+  const textArray = ["Web Developer", "Frontend Developer", "Full Stack Developer"];
   const [textIndex, setTextIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
 
@@ -27,11 +27,11 @@ export default function About() {
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl text-white mb-4 leading-tight">
             Hi, I'm
           </h1>
 
-          <h2 className="text-4xl sm:text-5xl md:text-6xl text-white mb-4 leading-tight">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
             Saurabh Singh Karki
           </h2>
 
@@ -42,7 +42,7 @@ export default function About() {
             <span className="text-[#8245ec]">|</span>
           </h3>
 
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-lg text-gray-300 mb-10 mt-8 leading-relaxed">
             I'm a passionate frontend developer with a keen eye for user experience and responsive design.
             With expertise in React.js, Tailwind CSS, and modern web technologies, I am focused on building
             impactful projects that bridge design and development.
@@ -71,12 +71,17 @@ export default function About() {
   transitionSpeed={1000}
   gyroscope={true}
   scale = {1.15}
-  className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-[600px] lg:h-[350px] border-4 border-purple-700 rounded-[40px] overflow-hidden"
+  className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-[480px] lg:h-[280px] border-4 border-purple-700 rounded-[40px] overflow-hidden"
+   style={{
+              background: "linear-gradient(90deg , #8245ec , #a855f7)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec , 0 0 40px #8245ec",
+            }}
 >
   <img
     src={profileImage}
     alt="Saurabh"
-    className="w-full h-full rounded-[40px] object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+    className="w-80 h-70  rounded-[40px] object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+    
   />
 </Tilt>
 </div>

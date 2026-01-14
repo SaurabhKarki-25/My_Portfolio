@@ -13,8 +13,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_nthoh1i",  // Replace with your EmailJS Service ID
-        "template_ryshfcq",  // Replace with your EmailJS Template ID
+        "service_zodljxh",  // Replace with your EmailJS Service ID
+        "template_32158pk",  // Replace with your EmailJS Template ID
         form.current,
         "cWRp-fUlFY0dSOGnP"  // Replace with your EmailJS Public Key
       )
@@ -57,7 +57,11 @@ const Contact = () => {
 
       {/* Section Title */}
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-white">CONTACT</h2>
+        <h2 className="text-4xl font-bold text-white"
+         style={{
+              background: "linear-gradient(90deg , #8245ec , #a855f7)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec , 0 0 40px #8245ec",
+            }}>CONTACT</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           I’d love to hear from you—reach out for any opportunities or questions!
