@@ -132,12 +132,11 @@ export const SkillsInfo = [
     
     {
       id: 0,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      title: "Secure-Auth-System",
+      description: "A secure full-stack authentication system featuring user registration, login, JWT-based authentication, password hashing with bcrypt, protected routes, role-based authorization, and responsive UI. Built with modern web technologies, it follows industry-standard security practices to provide a safe and seamless user authentication experience.",
+      image: secureauth,
+      tags: ["React JS","TypeScript","Node.js","Express.js","MongoDB","JWT","bcrypt","REST API","Tailwind CSS"],
+      webapp: "https://secure-auth-2-0-n7zk.onrender.com/"
     },
     
     {
@@ -169,11 +168,12 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "Secure-Auth-System",
-      description: "A secure full-stack authentication system featuring user registration, login, JWT-based authentication, password hashing with bcrypt, protected routes, role-based authorization, and responsive UI. Built with modern web technologies, it follows industry-standard security practices to provide a safe and seamless user authentication experience.",
-      image: secureauth,
-      tags: ["React JS","TypeScript","Node.js","Express.js","MongoDB","JWT","bcrypt","REST API","Tailwind CSS"],
-      webapp: "https://secure-auth-2-0-n7zk.onrender.com/"
+      title: "Movie Recommendation App",
+      description:
+        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+      image: movierecLogo,
+      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+      webapp: "https://movie-recommendation-app-jet.vercel.app/",
 }
     
   ];  
