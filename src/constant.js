@@ -166,7 +166,7 @@ export const SkillsInfo = [
       image: collegetips,
       tags: ["React JS", "Typescript", "HTML", "CSS", "JavaScript"],
       webapp : "https://college-tips-gallery.netlify.app/"
-    }
+    },
     {
       id: 4,
       title: "Secure-Auth-System",
