@@ -100,8 +100,8 @@ export const SkillsInfo = [
     degree: "Bachelor of Computer Applications - BCA",
     img: graphicImg,
     date: "2023 - 2026",
-    grade: "7.63 CGPA",
-    desc: "Built a strong foundation in programming, software development, and computer science principles."
+    grade: "8.10 CGPA",
+    desc: "Graduated with a Bachelor of Computer Applications (BCA), acquiring expertise in Computer Science, Software Development, Full Stack Web Development, Database Management, Programming Languages, Data Structures & Algorithms, Object-Oriented Programming (OOP), Operating Systems, Computer Networks, and Software Engineering. Passionate about building innovative applications, solving complex technical challenges, and continuously learning modern technologies to create impactful software solutions."
   },
   {
     id: 1,
