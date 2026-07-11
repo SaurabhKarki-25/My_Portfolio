@@ -167,4 +167,23 @@ export const SkillsInfo = [
       tags: ["React JS", "Typescript", "HTML", "CSS", "JavaScript"],
       webapp : "https://college-tips-gallery.netlify.app/"
     }
+    {
+  id: 4,
+  title: "Secure-Auth-System",
+  description: "A secure full-stack authentication system featuring user registration, login, JWT-based authentication, password hashing with bcrypt, protected routes, role-based authorization, and responsive UI. Built with modern web technologies, it follows industry-standard security practices to provide a safe and seamless user authentication experience.",
+  image: secureauth,
+  tags: [
+    "React JS",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "bcrypt",
+    "REST API",
+    "Tailwind CSS"
+  ],
+  webapp: "https://secure-auth-2-0-n7zk.onrender.com/"
+}
+    
   ];  
