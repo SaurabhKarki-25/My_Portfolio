@@ -44,7 +44,7 @@ import movierecLogo from './assets/work_logo/movie_rec.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import collegetips from './assets/SIP 2025.jpg';
-
+import secureauth from './assets/secureauth.png;
 
 export const SkillsInfo = [
   {
